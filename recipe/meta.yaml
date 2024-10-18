@@ -12,11 +12,12 @@ source:
 build:
   skip: true  # [py<38]
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - python
+    - setuptools
     - pip
   run:
     - python
