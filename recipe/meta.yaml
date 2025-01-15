@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pygubu-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pygubu-{{ version }}.tar.gz
   sha256: 5f0013eacba4c9062ae3be41208c158c732aad76690f50fefaec5254aae87be9
 
 build:
