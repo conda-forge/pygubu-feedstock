@@ -1,5 +1,5 @@
 {% set name = "pygubu" %}
-{% set version = "0.38.1" %}
+{% set version = "0.38.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pygubu-{{ version }}.tar.gz
-  sha256: 211cab0ebffcc91240377a17025d6bc7b9237ab5cc2e5068128c23330d26ffae
+  sha256: 7e33eb566dd1a1e198185921b798c9ca44f7646f7b5673e94cad1c996b595a1c
 
 build:
   skip: true  # [py<38]
